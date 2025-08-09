@@ -29,7 +29,7 @@ body, html {
   left: 0;
   width: 100%;
   z-index: 1000;
-  border-bottom: 1px solid white;
+  border-bottom: 2px solid white;
   backdrop-filter: blur(2px);
 }
 
@@ -53,10 +53,11 @@ body, html {
   text-decoration: none;
   cursor: pointer;
   background-color: transparent;
-  border-bottom: 1px solid whitesmoke;
+  border-bottom: 3px solid rgb(255, 255, 255);
   border-radius: 7px;
   backdrop-filter: blur(2px);
   transition: background-color 0.3s, color 0.3s;
+  font-size: 18px;
 }
 
 .li-navbar:hover {
@@ -95,7 +96,7 @@ body, html {
 .me {
   height: 205px;
   width: 200px;
-  margin-top: 40px;
+  margin-top:90px;
   margin-left: 120px;
   border-radius: 50%;
   border: 2px solid white;
@@ -105,7 +106,7 @@ body, html {
 .identitas ul {
   list-style: none;
   color: aliceblue;
-  margin-top: 60px;
+  margin-top: 70px;
   margin-left: 120px;
   font-size: larger;
   text-shadow: 5px 5px 5px black;
@@ -117,7 +118,7 @@ body, html {
   min-height: 100vh;
 }
 
-#skill, #porto {
+#skill, #contact {
   position: relative;
   background-color: transparent;
   z-index: 1;
@@ -135,7 +136,7 @@ body, html {
   margin: 0 auto;
   background-color: transparent;
   font-family: 'Times New Roman', Times, serif;
-  line-height: 1.8;
+  line-height: 1.7;
   backdrop-filter: blur(1px);
   position: absolute;
   top: 60px;
@@ -149,7 +150,29 @@ body, html {
   margin-left: 70px;
   margin-top: 20px;
   text-shadow: 4px 4px 4px black;
+  font-size: 20px;
 }
+.Education{
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: transparent;
+  font-family: 'Times New Roman', Times, serif;
+  line-height: 1.8;
+  position: absolute;
+  top: 60px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1;
+  color: white;
+  padding: 15px 25px;
+  text-align: left;
+  margin-left: 70px;
+  margin-top: 20px;
+  text-shadow: 4px 4px 4px black;
+  top: 550px;
+  font-size: 20px;
+}
+
 
 .about h1 {
   font-size: 28px;
