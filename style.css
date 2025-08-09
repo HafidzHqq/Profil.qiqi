@@ -228,9 +228,8 @@ body, html {
 .kontak {
   position: relative;
   z-index: 2; 
-  margin-top: 20px;
+  margin-top: 15px;
   text-align: center;
-  padding: 20px;
   
 }
 
